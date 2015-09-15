@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">F_ck I need U</div>
+                <div class="title">We change the world</div>
             </div>
         </div>
     </body>
