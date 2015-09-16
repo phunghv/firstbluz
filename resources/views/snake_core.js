@@ -1,20 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <style>
-      body {
-        margin: 0px;
-        padding: 0px;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="myCanvas" width="640" height="640" style="border:1px solid #000000;"></canvas>
-    <script>
-      var canvas = document.getElementById('myCanvas');
-      var context = canvas.getContext('2d');
-    </script>
-<script >
 window.addEventListener("keydown", moveSnake, false);
 var game_over = false;
 var snake = new Array(4);
@@ -29,16 +12,15 @@ var lvl_height = 20;
 var speed = 16;
 
 snakeHeadImage = new Image();
-snakeHeadImage.src = "http://i.imgur.com/dfH3WVt.png";
-
+snakeHeadImage.src = "resources/head.png";
 snakeBodyImage = new Image();
-snakeBodyImage.src = "http://i.imgur.com/NLh9qX6.png";
+snakeBodyImage.src = "resources/body.png";
 snakeTailImage = new Image();
-snakeTailImage.src = "http://i.imgur.com/zx9DXN0.png";
+snakeTailImage.src = "resources/tail.png";
 
 //food
 foodImage = new Image();
-foodImage.src = "http://i.imgur.com/6byX4Gj.png";
+foodImage.src = "resources/food.png";
 
 create_snake();
 create_food();
@@ -394,7 +376,3 @@ function drawRotatedImage(image, x, y, angle)
 	// and restore the co-ords to how they were when we began
 	context.restore(); 
 }
-</script>
-
-  </body>
-</html>
