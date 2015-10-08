@@ -15,5 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/game', function () {
-    return view('game');
+    return view('test');
 });
+Route::get('/abm', 'TestController@about');
+Route::get('/aby', 'TestController@you');
