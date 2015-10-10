@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; 
+}
+#home{
+    padding-top: 4%;
+}
+
+#unity-tut{
+    padding-top: 0%;
+    padding-left: 5%;
+}
+
+#php-tut{
+    padding-top: 12%;
+    padding-left: 5%;
+}
+#java-tut{
+    padding-top: 12%;
+    padding-left: 5%;
+}

@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TestController extends Controller {
  
 	public function about(){
-		return view('test.aboutme');
+		return view('home.ho');
 	}
 	public function you(){
 		return view('test.aboutyou');

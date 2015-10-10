@@ -1,12 +1,6 @@
 @include('layout.master')
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
-
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-        <style>
+@section('content')
+<style>
             html, body {
                 height: 100%;
             }
@@ -60,7 +54,7 @@
                 100% {color:red; left:5px; top:5px;}
             }
             .title{
-                
+
                 -webkit-animation:spin 4s linear infinite;
                 -moz-animation:spin 4s linear infinite;
                 animation:spin 4s linear infinite;
@@ -69,12 +63,9 @@
             @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
             @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
         </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">We change the world !</div>
-            </div>
-        </div>
-    </body>
-</html>
+<div class="container">
+    <div class="content">
+        <div class="title">We change the world !</div>
+    </div>
+</div>
+@stop

@@ -10,7 +10,7 @@
         float: left;
         padding-right: 2%;
         padding-left: 4%;
-        height: 10%;
+        height: 0px;
     }
     #cssmenu ul {
         list-style: none;
@@ -130,7 +130,7 @@
 </style>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div>
-        <img id='logo' style="height: 10%;" src="img/logo.png">
+        <img id='logo' style="height: 60px;" src="img/logo.png">
     </div>
     <div id='cssmenu'>
         <ul>
