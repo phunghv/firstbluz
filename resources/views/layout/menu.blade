@@ -1,0 +1,181 @@
+<div id="wrap_top_menu" class="bg_gradient fix_padding">
+    <div>
+        <div class="row">
+            <div class="col-xs-12 navbar-header animated flipInX">
+                <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 navbar-brand">
+                    <div id="logo">
+                        <a href="http://fptplay.net"><img src="http://fptplay.net/img/logo_FptPlay.png" alt="FPT Play" class="img-responsive"></a>
+                    </div>
+                </div>  
+                <div class="col-xs-8 col-sm-9 wrap_menu_reponsive">
+                    <div class="col-xs-10 col-sm-8 top_menu_reponsive">
+                        <div class="col-xs-12">
+                            <form id="frmSearchWrap" class="search" method="get">
+                                <input class="form-control" type="text" placeholder="Tìm Kiếm" id="search_keyword_wrap" name="keywork">
+                                <a id="btnSearchWrap" href="#" class="icon_search"></a>
+                            </form>
+                            <script>
+                                $(document).ready(function(){
+                                    $("#btnSearchWrap").click(function(){
+                                        var keyword_s_w = $("#search_keyword_wrap").val();
+                                        if(keyword_s_w.length > 3){
+                                            window.location.href = host + '/tim-kiem/' + keyword_s_w;
+                                        }
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="col-xs-12">
+                                                                <div class="auth">
+                                        <div class="dropdown">
+                                            <span class="dropdown-toggle" data-toggle="dropdown">
+                                                <a class="username">
+                                                    <img class="user-thumb" src="/img/no_avatar.jpg">&nbsp;&nbsp;Cuong Bui<img class="arrow_d" src="/img/icon_down.png">
+                                                </a>
+                                            </span>
+                                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">                                                                                        
+                                                <!--li role="presentation">
+                                                    <a role="menuitem" tabindex="-1" href="http://fptplay.net/ca-nhan">
+                                                        <img src="/img/user_icon_01.png"/>Cá nhân
+                                                    </a>
+                                                </li-->                                                                                                        
+                                                <li role="presentation">
+                                                    <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan">
+                                                        <img src="/img/user_icon_01.png">Tài khoản
+                                                    </a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan/nap-tien">
+                                                        <img src="/img/user_icon_03.png">Nạp tiền
+                                                    </a>
+                                                </li>
+                                                <li role="presentation">
+                                                    <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan/mua-goi-dich-vu">
+                                                        <img src="/img/user_icon_05.png">Mua dịch vụ
+                                                    </a>
+                                                </li>           
+                                                <li role="presentation">
+                                                    <a id="login_oauth" role="menuitem" tabindex="-1" href="/user/logout">
+                                                        <img src="/img/user_icon_04.png">Đăng xuất
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        <div class="col-xs-12">
+                            <ul class="top_menu reponsive">
+                                                                <li class="active"><a href="http://fptplay.net">Home</a></li>
+                                <li><a href="http://fptplay.net/livetv">Live TV</a></li>
+                                                                                                                                                <li><a href="http://fptplay.net/danh-muc/52842df7169a580a79169efd/the-thao.html">Thể Thao</a></li>                   
+                                                                                                                <li><a href="http://fptplay.net/danh-muc/55701c1517dc1321ee85857a/phim-bo.html">Phim Bộ</a></li>                   
+                                                                                                                <li><a href="http://fptplay.net/danh-muc/5575429017dc1321ed858679/phim-le.html">Phim Lẻ</a></li>                   
+                                                                                                                <li><a href="http://fptplay.net/danh-muc/52847232169a585a2449c48c/tv-show.html">TV Show</a></li>                   
+                                                                                                                     
+                                        <li class="topmenu_list_item ">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khác</a>
+                                            <ul class="dropdown-menu" id="sub_more" role="menu" aria-labelledby="dropdownMenu1">
+                                                                                                                        <li><a href="http://fptplay.net/danh-muc/5587c83b17dc1353a3624a22/anime.html">Anime</a></li>
+                                                                                                                        <li><a href="http://fptplay.net/danh-muc/55642e7f17dc1379c284eba2/e-sports.html">E-Sports</a></li>
+                                                                                                                        <li><a href="http://fptplay.net/danh-muc/54fd271917dc136162a0cf2d/thieu-nhi.html">Thiếu Nhi</a></li>
+                                                                                                                        <li><a href="http://fptplay.net/danh-muc/52842dd3169a580a79169efc/tong-hop.html">Tổng Hợp</a></li>
+                                                                            </ul>
+                                        </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-sm-4 wrap_button_menu">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top_listitem"></button>
+                    </div>
+                </div>
+                <div id="top_listitem" class="collapse navbar-collapse">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-7 col-lg-6">
+                                <ul class="top_menu">
+                                                                        <li class="active"><a href="http://fptplay.net">Home</a></li>
+                                    <li><a href="http://fptplay.net/livetv">Live TV</a></li>
+                                                                                                                                                                <li><a href="http://fptplay.net/danh-muc/52842df7169a580a79169efd/the-thao.html">Thể Thao</a></li>                   
+                                                                                                                            <li><a href="http://fptplay.net/danh-muc/55701c1517dc1321ee85857a/phim-bo.html">Phim Bộ</a></li>                   
+                                                                                                                            <li><a href="http://fptplay.net/danh-muc/5575429017dc1321ed858679/phim-le.html">Phim Lẻ</a></li>                   
+                                                                                                                            <li><a href="http://fptplay.net/danh-muc/52847232169a585a2449c48c/tv-show.html">TV Show</a></li>                   
+                                                                                                                                                                <li class="topmenu_list_item  open">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khác</a>
+                                                <ul class="dropdown-menu" id="sub_more" role="menu" aria-labelledby="dropdownMenu1" style="">
+                                                                                                                                    <li><a href="http://fptplay.net/danh-muc/5587c83b17dc1353a3624a22/anime.html">Anime</a></li>
+                                                                                                                                    <li><a href="http://fptplay.net/danh-muc/55642e7f17dc1379c284eba2/e-sports.html">E-Sports</a></li>
+                                                                                                                                    <li><a href="http://fptplay.net/danh-muc/54fd271917dc136162a0cf2d/thieu-nhi.html">Thiếu Nhi</a></li>
+                                                                                                                                    <li><a href="http://fptplay.net/danh-muc/52842dd3169a580a79169efc/tong-hop.html">Tổng Hợp</a></li>
+                                                                                    </ul>
+                                            </li>
+                                                                    </ul>
+                            </div>
+
+                            <div class="col-sm-1 col-lg-2">
+                                <form id="frmSearch" class="search" action="tim-kiem" method="get">
+                                    <input class="form-control" type="text" placeholder="Tìm Kiếm" id="search_keyword" name="keywork">
+                                    <a id="btnSearch" href="#" class="icon_search"></a>
+                                </form>
+                                <script>
+                                    $(document).ready(function(){
+                                        $("#btnSearch").click(function(){
+                                            var keyword_s = $("#search_keyword").val();
+                                            if(keyword_s.length > 3){
+                                                window.location.href = '/tim-kiem/' + keyword_s;
+                                            }                                            
+                                        });
+                                    });
+
+                                    function popupwindow(url, title, w, h) {
+                                        var left = (screen.width/2)-(w/2);
+                                        var top = (screen.height/2)-(h/2);
+                                        return window.open(url, title, 'directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no, width='+w+', height='+h+', top='+top+', left='+left);
+                                    } 
+                                </script>
+                            </div>
+                            <div class="col-sm-2 col-lg-2">
+                                                                        <div class="auth">
+                                            <div class="dropdown">
+                                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                                    <a class="username">
+                                                        <img class="user-thumb" src="/img/no_avatar.jpg">&nbsp;&nbsp;Cuong Bui<img class="arrow_d" src="/img/icon_down.png">
+                                                    </a>
+                                                </span>
+                                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+	                                                <!--li role="presentation">
+	                                                    <a role="menuitem" tabindex="-1" href="http://fptplay.net/ca-nhan">
+	                                                        <img src="/img/user_icon_01.png"/>Cá nhân
+	                                                    </a>
+	                                                </li-->                                                                                            
+                                                    <li role="presentation">
+                                                        <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan">
+                                                            <img src="/img/user_icon_01.png">Tài khoản
+                                                        </a>
+                                                    </li>
+                                                    <li role="presentation">
+                                                        <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan/nap-tien">
+                                                            <img src="/img/user_icon_03.png">Nạp tiền
+                                                        </a>
+                                                    </li>
+                                                    <li role="presentation">
+                                                        <a role="menuitem" tabindex="-1" href="http://fptplay.net/tai-khoan/mua-goi-dich-vu">
+                                                            <img src="/img/user_icon_05.png">Mua dịch vụ
+                                                        </a>
+                                                    </li>
+                                                    <li role="presentation">
+                                                        <a id="login_oauth" role="menuitem" tabindex="-1" href="/user/logout">
+                                                            <img src="/img/user_icon_04.png">Đăng xuất
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

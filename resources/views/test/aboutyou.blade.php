@@ -1,5 +1,2 @@
-@extends('templates.master')
-
+@include('layout.master')
 @section('content')
-i don't know
-@stop

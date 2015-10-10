@@ -1,3 +1,4 @@
+@include('layout.master')
 <!DOCTYPE html>
 <html>
     <head>
